@@ -7,7 +7,7 @@ namespace FactoryMethod.Creators
 {
     class TruckCreator : Creator
     {
-        public override IVehicle CreateVehicle()
+        public override Vehicle CreateVehicle()
         {
             return new Truck();
         }

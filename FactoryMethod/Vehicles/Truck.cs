@@ -4,7 +4,7 @@ using System.Text;
 
 namespace FactoryMethod.Vehicles
 {
-    class Truck : IVehicle
+    class Truck : Vehicle
     {
         public string Move()
         {

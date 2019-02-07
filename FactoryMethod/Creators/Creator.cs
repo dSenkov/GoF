@@ -7,7 +7,7 @@ namespace FactoryMethod.Creators
 {
     abstract class Creator
     {
-        public abstract IVehicle CreateVehicle();
+        public abstract Vehicle CreateVehicle();
 
         public string Launch()
         {

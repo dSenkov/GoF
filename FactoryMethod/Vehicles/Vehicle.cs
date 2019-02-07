@@ -4,7 +4,7 @@ using System.Text;
 
 namespace FactoryMethod.Vehicles
 {
-    interface IVehicle
+    interface Vehicle
     {
         string Move();
     }
